@@ -12,13 +12,13 @@ class ContainerPage extends StatelessWidget {
       body: Container(
         child: Center(
           child: Container(
-            height: 200,
+            height: 500,
             width: 200,
-            color: Colors.purpleAccent,
+            color: Colors.indigo[300],
             child: Center(
                 child: Text(
-              'Hola soy un texto',
-              style: TextStyle(color: Colors.white),
+              'SOY UN TEXTO DE MUESTRA DE BENITEZ',
+              style: TextStyle(color: Colors.pink),
             )),
           ),
         ),
