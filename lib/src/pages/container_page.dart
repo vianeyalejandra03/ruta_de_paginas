@@ -18,7 +18,7 @@ class ContainerPage extends StatelessWidget {
             child: Center(
                 child: Text(
               'SOY UN TEXTO DE MUESTRA DE BENITEZ',
-              style: TextStyle(color: Colors.pink),
+              style: TextStyle(color: Colors.black),
             )),
           ),
         ),
