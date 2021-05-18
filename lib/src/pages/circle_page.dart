@@ -34,7 +34,7 @@ class CirclePage extends StatelessWidget {
           child: CircleAvatar(
             backgroundColor: Colors.green[300],
             child: Text(
-              'GR',
+              'BG',
               style: TextStyle(fontSize: 30),
             ),
           ),
@@ -44,7 +44,7 @@ class CirclePage extends StatelessWidget {
           child: Column(
             children: <Widget>[
               Text(
-                '837363763736',
+                '6564493612',
                 style: Theme.of(context).textTheme.subtitle1,
               ),
               SizedBox(
