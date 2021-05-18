@@ -12,7 +12,7 @@ class ContainerPage extends StatelessWidget {
       body: Container(
         child: Center(
           child: Container(
-            height: 500,
+            height: 300,
             width: 200,
             color: Colors.indigo[300],
             child: Center(
