@@ -32,7 +32,8 @@ class CirclePage extends StatelessWidget {
           height: 70,
           width: 70,
           child: CircleAvatar(
-            child: Text(backgroundColor: Colors.green[300],
+            backgroundColor: Colors.green[300],
+            child: Text(
               'GR',
               style: TextStyle(fontSize: 30),
             ),
