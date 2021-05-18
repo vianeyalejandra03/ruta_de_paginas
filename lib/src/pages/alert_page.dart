@@ -8,6 +8,8 @@ class AlertPage extends StatelessWidget {
     return Scaffold(
       key: key,
       appBar: AppBar(
+        centerTitle: true,
+        backgroundColor: Colors.tealAccent[400],
         title: Text('Alertas'),
       ),
       body: Center(
