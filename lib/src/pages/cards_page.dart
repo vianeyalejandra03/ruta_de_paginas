@@ -38,7 +38,7 @@ class CardsPage extends StatelessWidget {
             SizedBox(
               height: 20,
             ),
-            Text('Dolore aliquip exercitation eiusmod elit est incididunt sint mollit aliqua ex. Pariatur ullamco dolore in ad mollit veniam occaecat. Irure sint elit quis minim.')
+            Text('Kimetsu no Yaiba (鬼滅の刃? lit. «espada mata-demonios»), también conocido por su nombre en inglés Demon Slayer y como Guardianes de la Noche en España, es un manga escrito e ilustrado por Koyoharu Gotōge que comenzó a serializarse el 15 de febrero de 2016.')
           ],
         ),
       ),
@@ -48,7 +48,7 @@ class CardsPage extends StatelessWidget {
   Widget _crearCard2() {
     return Card(
       elevation: 5,
-      color: Colors.deepPurple,
+      color: Colors.teal[200],
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       child: Container(
         padding: EdgeInsets.all(20),
@@ -62,7 +62,7 @@ class CardsPage extends StatelessWidget {
               height: 20,
             ),
             Text(
-              'Dolore aliquip exercitation eiusmod elit est incididunt sint mollit aliqua ex. Pariatur ullamco dolore in ad mollit veniam occaecat. Irure sint elit quis minim.',
+              'Kimetsu no Yaiba (鬼滅の刃? lit. «espada mata-demonios»), también conocido por su nombre en inglés Demon Slayer y como Guardianes de la Noche en España, es un manga escrito e ilustrado por Koyoharu Gotōge que comenzó a serializarse el 15 de febrero de 2016.',
               style: TextStyle(color: Colors.white),
             )
           ],
@@ -87,7 +87,7 @@ class CardsPage extends StatelessWidget {
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text('Soy una card con imagen'),
+              child: Text('card con imagen-Tanjiro'),
             )
           ],
         ),

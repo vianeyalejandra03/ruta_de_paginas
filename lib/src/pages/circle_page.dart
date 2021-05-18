@@ -32,7 +32,7 @@ class CirclePage extends StatelessWidget {
           height: 70,
           width: 70,
           child: CircleAvatar(
-            child: Text(
+            child: Text(backgroundColor: Colors.green[300],
               'GR',
               style: TextStyle(fontSize: 30),
             ),
@@ -49,7 +49,7 @@ class CirclePage extends StatelessWidget {
               SizedBox(
                 height: 5,
               ),
-              Text('Gerardo Ramos', style: Theme.of(context).textTheme.subtitle2)
+              Text('Benitez Garzon', style: Theme.of(context).textTheme.subtitle2)
             ],
           ),
         )
