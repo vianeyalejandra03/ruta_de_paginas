@@ -22,14 +22,14 @@ class AlertPage extends StatelessWidget {
               },
               child: Text('Mostar Alerta'),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-              color: Colors.amberAccent,
+              color: Colors.amberAccent[200],
             ),
             FlatButton(
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-              color: Colors.blue,
+              color: Colors.blue[100],
               onPressed: () {
                 key.currentState.showSnackBar(SnackBar(
-                  content: Text('Hola, soy una Snacbar'),
+                  content: Text('Hola, soy el snachbar de Benitez'),
                 ));
               },
               child: Text('Mostar Snackbar'),
@@ -46,7 +46,7 @@ class AlertPage extends StatelessWidget {
         'Hola',
         style: TextStyle(color: Colors.white),
       ),
-      content: Text('Soy una alerta', style: TextStyle(color: Colors.white)),
+      content: Text('Ten un Lindo Dia', style: TextStyle(color: Colors.white)),
       actions: <Widget>[
         FlatButton(
           onPressed: () {
@@ -68,9 +68,9 @@ class AlertPage extends StatelessWidget {
     return AlertDialog(
       title: Text('Hola', style: TextStyle(color: Colors.white)),
       elevation: 5,
-      backgroundColor: Colors.deepPurple,
+      backgroundColor: Colors.teal[300],
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-      content: Text('Soy una alerta', style: TextStyle(color: Colors.white)),
+      content: Text('Ten un lindo Dia', style: TextStyle(color: Colors.white)),
       actions: <Widget>[
         FlatButton(
           onPressed: () {
