@@ -5,6 +5,8 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          centerTitle: true,
+          backgroundColor: Colors.tealAccent,
           title: Text('Widgets App de benitez'),
         ),
         body: ListView(
